@@ -13,27 +13,23 @@ public class UseQueue {
 		 * 
 		 */
 		Queue<Integer> newQ = new LinkedList<>();
-		// Add elements to Queue.
-		newQ.add(255);
-		newQ.add(127);
-		newQ.add(91);
-		newQ.add(2017);
-		newQ.add(125);
-		//Applied peek, poll, remove
+		newQ.add(269);
+		newQ.add(137);
+		newQ.add(96);
+		newQ.add(2018);
+		newQ.add(141);
 		System.out.println(newQ.peek());
 		System.out.println(newQ.poll());
 		System.out.println(newQ.peek());
 		System.out.println(newQ.remove());
 		System.out.println(newQ.peek());
 
-		//Use of For Each loop  to retrieve data.
 
 		System.out.println("Use of for each loop to retrieve data: ");
 		for (Integer in : newQ) {
 			System.out.println(in);
 		}
 
-		//Use of while loop with Iterator to retrieve data.
 		System.out.println("Use of while loop to retrieve data: ");
 		Iterator itr = newQ.iterator();
 		while (itr.hasNext()) {
