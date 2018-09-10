@@ -18,7 +18,6 @@ public class FindMissingNumber {
         System.out.println("Missing number in the given array is: " + missingNumber);
     }
 
-    //method for sum of all array elements
     static int sumOfArrayForMissingNumber ( int[] array){
         int sum = 0;
         for (int i : array) {
